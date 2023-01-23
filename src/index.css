@@ -8,6 +8,16 @@
 a {
   text-decoration: none;
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+  overflow: hidden;
+}
+::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 10px;
+}
+
 body {
   width: 100%;
   overflow-x: hidden;
